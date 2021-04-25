@@ -771,7 +771,7 @@
                                                     </a>
                                                     <div class="dropdown-menu dropdown-menu-right animated--grow-in"
                                                         aria-labelledby="navbarDropdown">
-                                                        <a class="dropdown-item" href="#">Action</a>
+                                                         <a class="dropdown-item" href="#">Action</a>
                                                         <a class="dropdown-item" href="#">Another action</a>
                                                         <div class="dropdown-divider"></div>
                                                         <a class="dropdown-item" href="#">Something else here</a>
@@ -789,75 +789,155 @@
                                       </div>
                                       </form>
                               
-                                </div> 
+                                </div>
                                 <!-- Second form -->
                                 <div class = "mainbody">
-                                    <form class="row g-3">
-                                        <div class = "formTitle">
-                                            <h2>Applicant #1 - Personal Information  (MUST MATCH DRIVER’S LICENSE)</h2>
-                                        </div>
-                                        <div class="col-md-3">
-                                          <label for="inputEmail4" class="form-label">First Name</label>
+                                  <form class="row g-3">
+                                      <div class = "formTitle">
+                                          <h2>Applicant #2 - Personal Information  (MUST MATCH DRIVER’S LICENSE)</h2>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <label for="inputEmail4" class="form-label">First Name</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                      </div>
+                                      <div class="col-md-3">
+                                        <label for="inputPassword4" class="form-label">Last Name</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                      </div>
+                                      <div class="col-md-3">
+                                          <label for="inputPassword4" class="form-label">Middle Name</label>
                                           <input type="email" class="form-control" id="inputEmail4">
-                                        </div>
-                                        <div class="col-md-3">
-                                          <label for="inputPassword4" class="form-label">Last Name</label>
-                                          <input type="password" class="form-control" id="inputPassword4">
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for="inputPassword4" class="form-label">Middle Name</label>
-                                            <input type="password" class="form-control" id="inputPassword4">
-                                        </div>  
-                                        <div class="col-md- inputMod">
-                                          <nav class="navbar navbar-expand navbar-light bg-light mb-2">
-                                            <ul class="navbar-nav ml-auto">
-                                                <li class="nav-item dropdown">
-                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                        aria-expanded="false">
-                                                        Dropdown
-                                                    </a>
-                                                    <div class="dropdown-menu dropdown-menu-right animated--grow-in"
-                                                        aria-labelledby="navbarDropdown">
-                                                        <a class="dropdown-item" href="#">Action</a>
-                                                        <a class="dropdown-item" href="#">Another action</a>
-                                                        <div class="dropdown-divider"></div>
-                                                        <a class="dropdown-item" href="#">Something else here</a>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                        </div>
+                                      </div>  
+                                      <div class="col-md- inputMod">
+                                        <nav class="navbar navbar-expand navbar-light bg-light mb-2">
+                                          <ul class="navbar-nav ml-auto">
+                                              <li class="nav-item dropdown">
+                                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                      role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                      aria-expanded="false">
+                                                      Suffix
+                                                  </a>
+                                                  <div class="dropdown-menu dropdown-menu-right animated--grow-in"
+                                                      aria-labelledby="navbarDropdown">
+                                                      <a class="dropdown-item" href="#">Action</a>
+                                                      <a class="dropdown-item" href="#">Another action</a>
+                                                      <div class="dropdown-divider"></div>
+                                                      <a class="dropdown-item" href="#">Something else here</a>
+                                                  </div>
+                                              </li>
+                                          </ul>
+                                      </nav>
+                                      </div>
 
-                                        <div class="col-9">
-                                          <label for="inputAddress" class="form-label">SSN</label>
-                                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                                        </div>
-                                        <div class="col-sm inputMod">
-                                            <div class="edit">
-                                                <button class="btn btn-secondary " type="button"  aria-expanded="false">
-                                                   Edit / Show
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div class="col-8">
-                                          <label for="inputAddress2" class="form-label">DOB</label>
-                                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                                        </div>
-                                        <div class="col-md-6">
-                                          <label for="inputCity" class="form-label">Home Phone</label>
+                                      <div class="col-9">
+                                        <label for="inputAddress" class="form-label">SSN</label>
+                                        <input type="password" class="form-control" id="inputSSN2" >
+                                      </div>
+                                      <div class="col-sm inputMod">
+                                          <div class="edit">
+                                              <button class="btn btn-secondary " id="editNShowBtn2" type="button"  aria-expanded="false">
+                                                 Edit / Show
+                                              </button>
+                                          </div>
+                                      </div>
+                                      <div class="col-8">
+                                        <label for="inputAddress2" class="form-label">DOB</label>
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="inputCity" class="form-label">Home Phone</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                      </div>
+                                      <div class="col-md-4">
+                                          <label for="inputCity" class="form-label">Cell Phone</label>
                                           <input type="text" class="form-control" id="inputCity">
                                         </div>
-                                        <div class="col-md-4">
-                                            <label for="inputCity" class="form-label">Cell Phone</label>
-                                            <input type="text" class="form-control" id="inputCity">
-                                          </div>
-                                        <div class="col-md-8">
-                                          <label for="inputZip" class="form-label">DL Number</label>
-                                          <input type="text" class="form-control" id="inputZip">
+                                      <div class="col-md-8">
+                                        <label for="inputZip" class="form-label">DL Number</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                      </div>
+                                      <div class="col-md- inputMod">
+                                        <nav class="navbar navbar-expand navbar-light bg-light mb-2">
+                                          <ul class="navbar-nav ml-auto">
+                                              <li class="nav-item dropdown">
+                                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                      role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                      aria-expanded="false">
+                                                      Dropdown
+                                                  </a>
+                                                  <div class="dropdown-menu dropdown-menu-right animated--grow-in"
+                                                      aria-labelledby="navbarDropdown">
+                                                      <a class="dropdown-item" href="#">Action</a>
+                                                      <a class="dropdown-item" href="#">Another action</a>
+                                                      <div class="dropdown-divider"></div>
+                                                      <a class="dropdown-item" href="#">Something else here</a>
+                                                  </div>
+                                              </li>
+                                          </ul>
+                                      </nav>
+                                        
+                                      </div>
+                                    </form>
+                                    
+                                    
+                                    <form class="row g-3">
+                                      <div class = "formTitle col-md-10">
+                                          <h2 class = "empTitle">Current Residence Information </h2>
+                                      </div>
+                                      <div class="col-md-5">
+                                        <label for="inputEmail4" class="form-label">Adress</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                      </div>
+                                      <div class="col-md-4">
+                                        <label for="inputPassword4" class="form-label">Street:</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                      </div>
+                                      <div class="col-md-2">
+                                          <label for="inputPassword4" class="form-label">Apt#:</label>
+                                          <input type="password" class="form-control" id="inputPassword4">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="inputZip" class="form-label">Zip/City/State:</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                      </div>
+                                      <div class="col-md-4 valMod">
+                                        <label for="inputZip" class="form-label"></label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                      </div>
+                                      <div class="col-md-1 inputMod">
+                                        <nav class="navbar navbar-expand navbar-light bg-light ">
+                                          <ul class="navbar-nav ml-auto">
+                                              <li class="nav-item dropdown">
+                                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                      role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                      aria-expanded="false">
+                                                      Dropdown
+                                                  </a>
+                                                  <div class="dropdown-menu dropdown-menu-right animated--grow-in"
+                                                      aria-labelledby="navbarDropdown">
+                                                      <a class="dropdown-item" href="#">Action</a>
+                                                      <a class="dropdown-item" href="#">Another action</a>
+                                                      <div class="dropdown-divider"></div>
+                                                      <a class="dropdown-item" href="#">Something else here</a>
+                                                  </div>
+                                              </li>
+                                          </ul>
+                                      </nav>
+                                      </div>
+                                      <div class="col-8">
+                                        <label for="inputAddress2" class="form-label">County</label>
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder="County">
+                                      </div>
+                                      <div class="col-md-5">
+                                        <label for="inputCity" class="form-label">How Long</label>
+                                        <input type="text" class="form-control" id="inputCity" placeholder="Years">
+                                      </div>
+                                      <div class="col-md-3 valMod">
+                                          <label for="inputAddress" class="form-label"></label>
+                                          <input type="text" class="form-control" id="inputCity" placeholder="Months">
                                         </div>
                                         <div class="col-md- inputMod">
-                                          <nav class="navbar navbar-expand navbar-light bg-light mb-2">
+                                          <nav class="navbar navbar-expand navbar-light bg-light ">
                                             <ul class="navbar-nav ml-auto">
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -875,36 +955,104 @@
                                                 </li>
                                             </ul>
                                         </nav>
-                                          
-                                        </div>
-                                      </form>
+                                      </div>
+                                      <div class="col-md-8">
+                                        <label for="inputCity" class="form-label">Rent/Mortgage Pmt</label>
+                                        <input type="text" class="form-control" id="inputCity" placeholder="Amount...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <label for="inputCity" class="form-label">Landlord/Mortgage Co:</label>
+                                        <input type="text" class="form-control" id="inputCity" placeholder="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <label for="inputCity" class="form-label">Landlord/Mortgage Phone:</label>
+                                        <input type="text" class="form-control" id="inputCity" placeholder="...">
+                                      </div>
                                       
+                                      
+                                      <div class= "col-md-10 showBtn">
+                                        <div class="edit">
+                                            <button class="btn btn-secondary " type="button"  aria-expanded="false">
+                                              Enter Mailing Address (different than Current/Physical Address)
+                                            </button>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-10">
+                                        <label for="inputCity" class="form-label">Adress</label>
+                                        <input type="text" class="form-control" id="inputCity" placeholder="...">
+                                      </div>
+                                      <div class="col-md-4">
+                                        <label for="inputZip" class="form-label">Zip/City/State:</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                      </div>
+                                      <div class="col-md-4 valMod">
+                                        <label for="inputZip" class="form-label"></label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                      </div>
+                                      <div class="col-md- inputMod">
+                                        <nav class="navbar navbar-expand navbar-light bg-light ">
+                                          <ul class="navbar-nav ml-auto">
+                                              <li class="nav-item dropdown">
+                                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                      role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                      aria-expanded="false">
+                                                      Dropdown
+                                                  </a>
+                                                  <div class="dropdown-menu dropdown-menu-right animated--grow-in"
+                                                      aria-labelledby="navbarDropdown">
+                                                      <a class="dropdown-item" href="#">Action</a>
+                                                      <a class="dropdown-item" href="#">Another action</a>
+                                                      <div class="dropdown-divider"></div>
+                                                      <a class="dropdown-item" href="#">Something else here</a>
+                                                  </div>
+                                              </li>
+                                          </ul>
+                                      </nav>
+                                      </div>
+                                      <div class="col-8">
+                                        <label for="inputAddress2" class="form-label">County</label>
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder="County">
+                                      </div>
                                       
                                       <form class="row g-3">
-                                        <div class = "formTitle col-md-10">
-                                            <h2 class = "empTitle">Current Residence Information </h2>
+                                        <div class = "formTitle">
+                                            <h2 class= "empTitle">Current Employment Information</h2>
+                                        </div>
+                                        <div class="col-md-10 inputMod dropMod">
+                                          <label for="inputState" class="form-label"></label>
+                                          <select id="inputState" class="form-select ">
+                                            <option selected>Status...</option>
+                                            <option>employed</option>
+                                            <option>home-maker</option>
+                                            <option>military</option>
+                                            <option>retired</option>
+                                            <option>self-employed/1099</option>
+                                            <option>student</option>
+                                            <option>temp/staffing agency</option>
+                                            <option>un-emplyeed</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-8">
+                                          <label for="inputAddress2" class="form-label">Occupation</label>
+                                          <input type="text" class="form-control" id="inputAddress2" placeholder="County">
+                                        </div>
+                                        <div class="col-8">
+                                          <label for="inputAddress2" class="form-label">Employer Name</label>
+                                          <input type="text" class="form-control" id="inputAddress2" placeholder="County">
+                                        </div>
+                                        <div class="col-8">
+                                          <label for="inputAddress2" class="form-label">Address</label>
+                                          <input type="text" class="form-control" id="inputAddress2" placeholder="County">
                                         </div>
                                         <div class="col-md-5">
-                                          <label for="inputEmail4" class="form-label">Adress</label>
-                                          <input type="email" class="form-control" id="inputEmail4">
-                                        </div>
-                                        <div class="col-md-4">
-                                          <label for="inputPassword4" class="form-label">Street:</label>
-                                          <input type="password" class="form-control" id="inputPassword4">
-                                        </div>
-                                        <div class="col-md-2">
-                                            <label for="inputPassword4" class="form-label">Apt#:</label>
-                                            <input type="password" class="form-control" id="inputPassword4">
-                                        </div>
-                                        <div class="col-md-6">
                                           <label for="inputZip" class="form-label">Zip/City/State:</label>
                                           <input type="text" class="form-control" id="inputZip">
                                         </div>
-                                        <div class="col-md-4 valMod">
+                                        <div class="col-md-3 valMod">
                                           <label for="inputZip" class="form-label"></label>
                                           <input type="text" class="form-control" id="inputZip">
                                         </div>
-                                        <div class="col-md-1 inputMod">
+                                        <div class="col-md- inputMod">
                                           <nav class="navbar navbar-expand navbar-light bg-light ">
                                             <ul class="navbar-nav ml-auto">
                                                 <li class="nav-item dropdown">
@@ -924,68 +1072,73 @@
                                             </ul>
                                         </nav>
                                         </div>
-                                        <div class="col-8">
-                                          <label for="inputAddress2" class="form-label">County</label>
-                                          <input type="text" class="form-control" id="inputAddress2" placeholder="County">
+                                        <div class="col-md-8">
+                                          <label for="inputZip" class="form-label">Gross income</label>
+                                          <input type="text" class="form-control" id="inputZip">
                                         </div>
-                                        <div class="col-md-5">
-                                          <label for="inputCity" class="form-label">How Long</label>
-                                          <input type="text" class="form-control" id="inputCity" placeholder="Years">
-                                        </div>
-                                        <div class="col-md-3 valMod">
-                                            <label for="inputAddress" class="form-label"></label>
-                                            <input type="text" class="form-control" id="inputCity" placeholder="Months">
-                                          </div>
-                                          <div class="col-md- inputMod">
-                                            <nav class="navbar navbar-expand navbar-light bg-light ">
-                                              <ul class="navbar-nav ml-auto">
-                                                  <li class="nav-item dropdown">
-                                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                          role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                          aria-expanded="false">
-                                                          Dropdown
-                                                      </a>
-                                                      <div class="dropdown-menu dropdown-menu-right animated--grow-in"
-                                                          aria-labelledby="navbarDropdown">
-                                                          <a class="dropdown-item" href="#">Action</a>
-                                                          <a class="dropdown-item" href="#">Another action</a>
-                                                          <div class="dropdown-divider"></div>
-                                                          <a class="dropdown-item" href="#">Something else here</a>
-                                                      </div>
-                                                  </li>
-                                              </ul>
-                                          </nav>
+                                        <div class="col-md- inputMod">
+                                          <nav class="navbar navbar-expand navbar-light bg-light ">
+                                            <ul class="navbar-nav ml-auto">
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right animated--grow-in"
+                                                        aria-labelledby="navbarDropdown">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </nav>
                                         </div>
                                         <div class="col-md-8">
-                                          <label for="inputCity" class="form-label">Rent/Mortgage Pmt</label>
-                                          <input type="text" class="form-control" id="inputCity" placeholder="Amount...">
-                                        </div>
-                                        <div class="col-md-8">
-                                          <label for="inputCity" class="form-label">Landlord/Mortgage Co:</label>
+                                          <label for="inputCity" class="form-label">Work Phone</label>
                                           <input type="text" class="form-control" id="inputCity" placeholder="...">
                                         </div>
-                                        <div class="col-md-8">
-                                          <label for="inputCity" class="form-label">Landlord/Mortgage Phone:</label>
-                                          <input type="text" class="form-control" id="inputCity" placeholder="...">
+                                        <div class="col-md-6">
+                                          <label for="inputCity" class="form-label">How long</label>
+                                          <input type="text" class="form-control" id="inputCity" placeholder="Years...">
                                         </div>
-                                        
-                                        
-                                        <div class= "col-md-10 showBtn">
+                                        <div class="col-md-4 valMod">
+                                          <label for="inputCity" class="form-label"></label>
+                                          <input type="text" class="form-control" id="inputCity" placeholder="Months...">
+                                        </div>
+                                        <div class=" col-md-8 showBtn">
                                           <div class="edit">
                                               <button class="btn btn-secondary " type="button"  aria-expanded="false">
-                                                Enter Mailing Address (different than Current/Physical Address)
+                                                Click Here To Enter a Second Job
                                               </button>
                                           </div>
                                         </div>
-                                        <div class="col-md-10">
-                                          <label for="inputCity" class="form-label">Adress</label>
-                                          <input type="text" class="form-control" id="inputCity" placeholder="...">
+                                        <div class="col-md-10 dropMod">
+                                          <label for="inputState" class="form-label"></label>
+                                          <select id="inputState" class="form-select">
+                                            <option selected>State...</option>
+                                            <option>...</option>
+                                          </select>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-8">
+                                          <label for="inputAddress2" class="form-label">Occupation</label>
+                                          <input type="text" class="form-control" id="inputAddress2" placeholder="County">
+                                        </div>
+                                        <div class="col-8">
+                                          <label for="inputAddress2" class="form-label">Employer Name</label>
+                                          <input type="text" class="form-control" id="inputAddress2" placeholder="County">
+                                        </div>
+                                        <div class="col-8">
+                                          <label for="inputAddress2" class="form-label">Address</label>
+                                          <input type="text" class="form-control" id="inputAddress2" placeholder="County">
+                                        </div>
+                                        <div class="col-md-6 ">
                                           <label for="inputZip" class="form-label">Zip/City/State:</label>
                                           <input type="text" class="form-control" id="inputZip">
                                         </div>
-                                        <div class="col-md-4 valMod">
+                                        <div class="col-md-2 valMod">
                                           <label for="inputZip" class="form-label"></label>
                                           <input type="text" class="form-control" id="inputZip">
                                         </div>
@@ -1009,208 +1162,12 @@
                                             </ul>
                                         </nav>
                                         </div>
-                                        <div class="col-8">
-                                          <label for="inputAddress2" class="form-label">County</label>
-                                          <input type="text" class="form-control" id="inputAddress2" placeholder="County">
-                                        </div>
-                                        
-                                        <form class="row g-3">
-                                          <div class = "formTitle">
-                                              <h2 class= "empTitle">Current Employment Information</h2>
-                                          </div>
-                                          <div class="col-md-10 inputMod dropMod">
-                                            <label for="inputState" class="form-label"></label>
-                                            <select id="inputState" class="form-select ">
-                                              <option selected>Status...</option>
-                                              <option>employed</option>
-                                              <option>home-maker</option>
-                                              <option>military</option>
-                                              <option>retired</option>
-                                              <option>self-employed/1099</option>
-                                              <option>student</option>
-                                              <option>temp/staffing agency</option>
-                                              <option>un-emplyeed</option>
-                                            </select>
-                                          </div>
-                                          <div class="col-8">
-                                            <label for="inputAddress2" class="form-label">Occupation</label>
-                                            <input type="text" class="form-control" id="inputAddress2" placeholder="County">
-                                          </div>
-                                          <div class="col-8">
-                                            <label for="inputAddress2" class="form-label">Employer Name</label>
-                                            <input type="text" class="form-control" id="inputAddress2" placeholder="County">
-                                          </div>
-                                          <div class="col-8">
-                                            <label for="inputAddress2" class="form-label">Address</label>
-                                            <input type="text" class="form-control" id="inputAddress2" placeholder="County">
-                                          </div>
-                                          <div class="col-md-5">
-                                            <label for="inputZip" class="form-label">Zip/City/State:</label>
-                                            <input type="text" class="form-control" id="inputZip">
-                                          </div>
-                                          <div class="col-md-3 valMod">
-                                            <label for="inputZip" class="form-label"></label>
-                                            <input type="text" class="form-control" id="inputZip">
-                                          </div>
-                                          <div class="col-md- inputMod">
-                                            <nav class="navbar navbar-expand navbar-light bg-light ">
-                                              <ul class="navbar-nav ml-auto">
-                                                  <li class="nav-item dropdown">
-                                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                          role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                          aria-expanded="false">
-                                                          Dropdown
-                                                      </a>
-                                                      <div class="dropdown-menu dropdown-menu-right animated--grow-in"
-                                                          aria-labelledby="navbarDropdown">
-                                                          <a class="dropdown-item" href="#">Action</a>
-                                                          <a class="dropdown-item" href="#">Another action</a>
-                                                          <div class="dropdown-divider"></div>
-                                                          <a class="dropdown-item" href="#">Something else here</a>
-                                                      </div>
-                                                  </li>
-                                              </ul>
-                                          </nav>
-                                          </div>
-                                          <div class="col-md-8">
-                                            <label for="inputZip" class="form-label">Gross income</label>
-                                            <input type="text" class="form-control" id="inputZip">
-                                          </div>
-                                          <div class="col-md- inputMod">
-                                            <nav class="navbar navbar-expand navbar-light bg-light ">
-                                              <ul class="navbar-nav ml-auto">
-                                                  <li class="nav-item dropdown">
-                                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                          role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                          aria-expanded="false">
-                                                          Dropdown
-                                                      </a>
-                                                      <div class="dropdown-menu dropdown-menu-right animated--grow-in"
-                                                          aria-labelledby="navbarDropdown">
-                                                          <a class="dropdown-item" href="#">Action</a>
-                                                          <a class="dropdown-item" href="#">Another action</a>
-                                                          <div class="dropdown-divider"></div>
-                                                          <a class="dropdown-item" href="#">Something else here</a>
-                                                      </div>
-                                                  </li>
-                                              </ul>
-                                          </nav>
-                                          </div>
-                                          <div class="col-md-8">
-                                            <label for="inputCity" class="form-label">Work Phone</label>
-                                            <input type="text" class="form-control" id="inputCity" placeholder="...">
-                                          </div>
-                                          <div class="col-md-6">
-                                            <label for="inputCity" class="form-label">How long</label>
-                                            <input type="text" class="form-control" id="inputCity" placeholder="Years...">
-                                          </div>
-                                          <div class="col-md-4 valMod">
-                                            <label for="inputCity" class="form-label"></label>
-                                            <input type="text" class="form-control" id="inputCity" placeholder="Months...">
-                                          </div>
-                                          <div class=" col-md-8 showBtn">
-                                            <div class="edit">
-                                                <button class="btn btn-secondary " type="button"  aria-expanded="false">
-                                                  Click Here To Enter a Second Job
-                                                </button>
-                                            </div>
-                                          </div>
-                                          <div class="col-md-10 dropMod">
-                                            <label for="inputState" class="form-label"></label>
-                                            <select id="inputState" class="form-select">
-                                              <option selected>State...</option>
-                                              <option>...</option>
-                                            </select>
-                                          </div>
-                                          <div class="col-8">
-                                            <label for="inputAddress2" class="form-label">Occupation</label>
-                                            <input type="text" class="form-control" id="inputAddress2" placeholder="County">
-                                          </div>
-                                          <div class="col-8">
-                                            <label for="inputAddress2" class="form-label">Employer Name</label>
-                                            <input type="text" class="form-control" id="inputAddress2" placeholder="County">
-                                          </div>
-                                          <div class="col-8">
-                                            <label for="inputAddress2" class="form-label">Address</label>
-                                            <input type="text" class="form-control" id="inputAddress2" placeholder="County">
-                                          </div>
-                                          <div class="col-md-6 ">
-                                            <label for="inputZip" class="form-label">Zip/City/State:</label>
-                                            <input type="text" class="form-control" id="inputZip">
-                                          </div>
-                                          <div class="col-md-2 valMod">
-                                            <label for="inputZip" class="form-label"></label>
-                                            <input type="text" class="form-control" id="inputZip">
-                                          </div>
-                                          <div class="col-md- inputMod">
-                                            <nav class="navbar navbar-expand navbar-light bg-light ">
-                                              <ul class="navbar-nav ml-auto">
-                                                  <li class="nav-item dropdown">
-                                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                          role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                          aria-expanded="false">
-                                                          Dropdown
-                                                      </a>
-                                                      <div class="dropdown-menu dropdown-menu-right animated--grow-in"
-                                                          aria-labelledby="navbarDropdown">
-                                                          <a class="dropdown-item" href="#">Action</a>
-                                                          <a class="dropdown-item" href="#">Another action</a>
-                                                          <div class="dropdown-divider"></div>
-                                                          <a class="dropdown-item" href="#">Something else here</a>
-                                                      </div>
-                                                  </li>
-                                              </ul>
-                                          </nav>
-                                          </div>
-                                          <div class="col-md-8">
-                                            <label for="inputZip" class="form-label">Gross income</label>
-                                            <input type="text" class="form-control" id="inputZip">
-                                          </div>
-                                          <div class="col-md- inputMod">
-                                            <nav class="navbar navbar-expand navbar-light bg-light">
-                                              <ul class="navbar-nav ml-auto">
-                                                  <li class="nav-item dropdown">
-                                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                          role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                          aria-expanded="false">
-                                                          Dropdown
-                                                      </a>
-                                                      <div class="dropdown-menu dropdown-menu-right animated--grow-in"
-                                                          aria-labelledby="navbarDropdown">
-                                                          <a class="dropdown-item" href="#">Action</a>
-                                                          <a class="dropdown-item" href="#">Another action</a>
-                                                          <div class="dropdown-divider"></div>
-                                                          <a class="dropdown-item" href="#">Something else here</a>
-                                                      </div>
-                                                  </li>
-                                              </ul>
-                                          </nav>
-                                          </div>
-                                          <div class="col-md-8">
-                                            <label for="inputCity" class="form-label">Work Phone</label>
-                                            <input type="text" class="form-control" id="inputCity" placeholder="...">
-                                          </div>
-                                          <div class="col-md-6 ">
-                                            <label for="inputCity" class="form-label">How long</label>
-                                            <input type="text" class="form-control" id="inputCity" placeholder="Years...">
-                                          </div>
-                                          <div class="col-md-4 valMod">
-                                            <label for="inputCity" class="form-label"></label>
-                                            <input type="text" class="form-control" id="inputCity" placeholder="Months...">
-                                          </div>
-                                      </form>
-                                      
-                                      <form class="row g-3">
-                                        <div class = "empTitle">
-                                            <h2>Other Income Information</h2>
-                                            <h5>Alimony, child support, or separate maintenance income need not be revealed if you do not wish to have it considered as a basis for repaying this obligation.</h5>
-                                        </div>
                                         <div class="col-md-8">
-                                          <label for="inputZip" class="form-label">Gross other income</label>
+                                          <label for="inputZip" class="form-label">Gross income</label>
                                           <input type="text" class="form-control" id="inputZip">
                                         </div>
                                         <div class="col-md- inputMod">
-                                          <nav class="navbar navbar-expand navbar-light bg-light mb-2">
+                                          <nav class="navbar navbar-expand navbar-light bg-light">
                                             <ul class="navbar-nav ml-auto">
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -1229,16 +1186,59 @@
                                             </ul>
                                         </nav>
                                         </div>
-                                        <div class="col-md-8 bottomFrom ">
-                                          <label for="inputState" class="form-label">Other Income Source</label>
-                                          <select id="inputState" class="form-select">
-                                            <option selected>...</option>
-                                            <option>Aid For Children Department</option>
-                                          </select>
+                                        <div class="col-md-8">
+                                          <label for="inputCity" class="form-label">Work Phone</label>
+                                          <input type="text" class="form-control" id="inputCity" placeholder="...">
+                                        </div>
+                                        <div class="col-md-6 ">
+                                          <label for="inputCity" class="form-label">How long</label>
+                                          <input type="text" class="form-control" id="inputCity" placeholder="Years...">
+                                        </div>
+                                        <div class="col-md-4 valMod">
+                                          <label for="inputCity" class="form-label"></label>
+                                          <input type="text" class="form-control" id="inputCity" placeholder="Months...">
+                                        </div>
+                                    </form>
+                                    
+                                    <form class="row g-3">
+                                      <div class = "empTitle">
+                                          <h2>Other Income Information</h2>
+                                          <h5>Alimony, child support, or separate maintenance income need not be revealed if you do not wish to have it considered as a basis for repaying this obligation.</h5>
                                       </div>
-                                      </form>
-                              
-                                </div> 
+                                      <div class="col-md-8">
+                                        <label for="inputZip" class="form-label">Gross other income</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                      </div>
+                                      <div class="col-md- inputMod">
+                                        <nav class="navbar navbar-expand navbar-light bg-light mb-2">
+                                          <ul class="navbar-nav ml-auto">
+                                              <li class="nav-item dropdown">
+                                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                      role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                      aria-expanded="false">
+                                                      Dropdown
+                                                  </a>
+                                                  <div class="dropdown-menu dropdown-menu-right animated--grow-in"
+                                                      aria-labelledby="navbarDropdown">
+                                                       <a class="dropdown-item" href="#">Action</a>
+                                                      <a class="dropdown-item" href="#">Another action</a>
+                                                      <div class="dropdown-divider"></div>
+                                                      <a class="dropdown-item" href="#">Something else here</a>
+                                                  </div>
+                                              </li>
+                                          </ul>
+                                      </nav>
+                                      </div>
+                                      <div class="col-md-8 bottomFrom ">
+                                        <label for="inputState" class="form-label">Other Income Source</label>
+                                        <select id="inputState" class="form-select">
+                                          <option selected>...</option>
+                                          <option>Aid For Children Department</option>
+                                        </select>
+                                    </div>
+                                    </form>
+                            
+                              </div>
 
 
                                 <!-- Second form end-->
