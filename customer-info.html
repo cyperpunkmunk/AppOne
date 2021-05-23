@@ -1,0 +1,727 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Info | iNet Financial Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- #styles -->
+  <link rel="stylesheet" href="css/inline.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/custom-customer-info.css">
+  <meta name="robots" content="noindex, nofollow" data-rh="true">
+</head>
+<body cz-shortcut-listen="true">
+<!-- version: 0.1.0-dev -->
+<div id="root">
+  <div id="customer-info-container" class="customer-info-container h-100">
+    <header id="customer-info-header" class="customer-info-header header">
+      <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="/">iNet</a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebar-menu" aria-controls="sidebar-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+        <ul class="navbar-nav px-3">
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#">
+              Sign out
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <nav id="sidebar-menu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+          <div class="sidebar-sticky pt-3">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="/applications">
+                  Applications
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Customer Info
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Credit Bureau
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Collateral
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Structure
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Lenders
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Forms
+                </a>
+              </li>
+            </ul>
+            <hr>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="/admin/employees">
+                  Manage Employees
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+            <div class="mt-5 container-fluid">
+              <div class="row">
+                <div class="col">
+                  <h2 class="mt-4">Customer Info</h2>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col">
+                  <div class="primary-applicant-container">
+                    <h4>Primary Applicant</h4>
+                    <div class="card mt-3">
+                      <div class="card-header">Personal Information</div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-first-name">First name</label>
+                              <input id="primary-applicant-first-name" name="first_name" type="text" class="form-control" value="Meghan">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-middle-name">Middle name</label>
+                              <input id="primary-applicant-middle-name" name="middle_name" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-last-name">Last name</label>
+                              <input id="primary-applicant-last-name" name="last_name" type="text" class="form-control" value="Steuber">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-prefix">Prefix</label>
+                              <input id="primary-applicant-prefix" name="prefix" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-suffix">Suffix</label>
+                              <input id="primary-applicant-suffix" name="suffix" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-social-security-number">SSN</label>
+                              <input id="primary-applicant-social-security-number" name="social_security_number" type="password" class="form-control" value="655-63-5962" autocomplete="off">
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-end col">
+                            <button type="button" class="btn btn-dark mb-3">Show</button>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-date-of-birth">DOB</label>
+                              <input id="primary-applicant-date-of-birth" name="date_of_birth" type="text" class="form-control" value="1994-08-07">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-home-phone">Home phone</label>
+                              <input id="primary-applicant-home-phone" name="home_phone" type="text" class="form-control" value="533-906-3124">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-work-phone">Work phone</label>
+                              <input id="primary-applicant-work-phone" name="work_phone" type="text" class="form-control" value="510-286-1657">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-work-phone-extension">Work extension</label>
+                              <input id="primary-applicant-work-phone-extension" name="work_phone_extension" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-drivers-license-number">DL Number</label>
+                              <input id="primary-applicant-drivers-license-number" name="drivers_license_number" type="text" class="form-control" value="399067232">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-drivers-license-state">DL State</label>
+                              <input id="primary-applicant-drivers-license-state" name="drivers_license_state" type="text" class="form-control" value="UT">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-3">
+                      <div class="card-header">Current Residence</div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-address-line-1">Address line 1</label>
+                              <input id="primary-applicant-current-residence-address-line-1" name="current_residence_address_line_1" type="text" class="form-control" value="1129 Briana Loaf">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-address-line-2">Address line 2</label>
+                              <input id="primary-applicant-current-residence-address-line-2" name="current_residence_address_line_2" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-city">City</label>
+                              <input id="primary-applicant-current-residence-city" name="current_residence_city" type="text" class="form-control" value="South Rylan">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-state">State</label>
+                              <input id="primary-applicant-current-residence-state" name="current_residence_state" type="text" class="form-control" value="AL">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-zip-code">Zip Code</label>
+                              <input id="primary-applicant-current-residence-zip-code" name="current_residence_zip_code" type="text" class="form-control" value="29091-2407">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-county">County</label>
+                              <input id="primary-applicant-current-residence-county" name="current_residence_county" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-status">Status</label>
+                              <input id="primary-applicant-current-residence-status" name="current_residence_status" type="text" class="form-control" value="OWN">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-payment">Payment</label>
+                              <input id="primary-applicant-current-residence-payment" name="current_residence_payment" type="text" class="form-control" value="$1,782.00">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-owner-company">Landlord/Mortgage company</label>
+                              <input id="primary-applicant-current-residence-owner-company" name="current_residence_owner_company" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-owner-phone">Landlord/Mortgage phone</label>
+                              <input id="primary-applicant-current-residence-owner-phone" name="current_residence_owner_phone" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-length-years">Length in years</label>
+                              <input id="primary-applicant-current-residence-length-years" name="current_residence_length_years" type="text" class="form-control" value="2">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-residence-length-months">Length in months</label>
+                              <input id="primary-applicant-current-residence-length-months" name="current_residence_length_months" type="text" class="form-control" value="5">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-3">
+                      <div class="card-header">Current Employment</div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-status">Status</label>
+                              <input id="primary-applicant-current-employment-status" name="current_employment_status" type="text" class="form-control" value="STUDENT">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-occupation">Occupation</label>
+                              <input id="primary-applicant-current-employment-occupation" name="current_employment_occupation" type="text" class="form-control" value="Music Arranger and Orchestrator">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-employer-name">Employer name</label>
+                              <input id="primary-applicant-current-employment-employer-name" name="current_employment_employer_name" type="text" class="form-control" value="Ritchie, Gulgowski and Schultz">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-address-line-1">Address line 1</label>
+                              <input id="primary-applicant-current-employment-address-line-1" name="current_employment_address_line_1" type="text" class="form-control" value="2615 Graham Dam">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-address-line-2">Address line 2</label>
+                              <input id="primary-applicant-current-employment-address-line-2" name="current_employment_address_line_2" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-city">City</label>
+                              <input id="primary-applicant-current-employment-city" name="current_employment_city" type="text" class="form-control" value="Lake Hermina">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-state">State</label>
+                              <input id="primary-applicant-current-employment-state" name="current_employment_state" type="text" class="form-control" value="MO">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-zip-code">Zip code</label>
+                              <input id="primary-applicant-current-employment-zip-code" name="current_employment_zip_code" type="text" class="form-control" value="93405-1462">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-salary-amount">Salary</label>
+                              <input id="primary-applicant-current-employment-salary-amount" name="current_employment_salary_amount" type="text" class="form-control" value="$10,529.00">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-salary-frequency">Frequency</label>
+                              <input id="primary-applicant-current-employment-salary-frequency" name="current_employment_salary_frequency" type="text" class="form-control" value="MONTHLY">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-work-phone">Work phone</label>
+                              <input id="primary-applicant-current-employment-work-phone" name="current_employment_work_phone" type="text" class="form-control" value="735-249-4554">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-work-phone-extension">Work extension</label>
+                              <input id="primary-applicant-current-employment-work-phone-extension" name="current_employment_work_phone_extension" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-length-years">Length in years</label>
+                              <input id="primary-applicant-current-employment-length-years" name="current_employment_length_years" type="text" class="form-control" value="3">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="primary-applicant-current-employment-length-months">Length in months</label>
+                              <input id="primary-applicant-current-employment-length-months" name="current_employment_length_months" type="text" class="form-control" value="6">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="joint-applicant-container">
+                    <h4>Joint Applicant</h4>
+                    <div class="card mt-3">
+                      <div class="card-header">Personal Information</div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-first-name">First name</label>
+                              <input id="joint-applicant-first-name" name="joint_first_name" type="text" class="form-control" value="Dameon">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-middle-name">Middle name</label>
+                              <input id="joint-applicant-middle-name" name="joint_middle_name" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-last-name">Last name</label>
+                              <input id="joint-applicant-last-name" name="joint_last_name" type="text" class="form-control" value="Herman">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-prefix">Prefix</label>
+                              <input id="joint-applicant-prefix" name="joint_prefix" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-suffix">Suffix</label>
+                              <input id="joint-applicant-suffix" name="joint_suffix" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-social-security-number">SSN</label>
+                              <input id="joint-applicant-social-security-number" name="joint_social_security_number" type="password" class="form-control" value="876-13-9926" autocomplete="off">
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-end col">
+                            <button type="button" class="btn btn-dark mb-3">Show</button>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-date-of-birth">DOB</label>
+                              <input id="joint-applicant-date-of-birth" name="joint_date_of_birth" type="text" class="form-control" value="1968-12-25">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-home-phone">Home phone</label>
+                              <input id="joint-applicant-home-phone" name="joint_home_phone" type="text" class="form-control" value="694-929-8863">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-work-phone">Work phone</label>
+                              <input id="joint-applicant-work-phone" name="joint_work_phone" type="text" class="form-control" value="845-788-8436">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-work-phone-extension">Work extension</label>
+                              <input id="joint-applicant-work-phone-extension" name="joint_work_phone_extension" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-drivers-license-number">DL Number</label>
+                              <input id="joint-applicant-drivers-license-number" name="joint_drivers_license_number" type="text" class="form-control" value="246703631">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-drivers-license-state">DL State</label>
+                              <input id="joint-applicant-drivers-license-state" name="joint_drivers_license_state" type="text" class="form-control" value="NY">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-3">
+                      <div class="card-header">Current Residence</div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-address-line-1">Address line 1</label>
+                              <input id="joint-applicant-current-residence-address-line-1" name="joint_current_residence_address_line_1" type="text" class="form-control" value="8499 Douglas Shoals">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-address-line-2">Address line 2</label>
+                              <input id="joint-applicant-current-residence-address-line-2" name="joint_current_residence_address_line_2" type="text" class="form-control" value="Apt. 326">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-city">City</label>
+                              <input id="joint-applicant-current-residence-city" name="joint_current_residence_city" type="text" class="form-control" value="South Hellen">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-state">State</label>
+                              <input id="joint-applicant-current-residence-state" name="joint_current_residence_state" type="text" class="form-control" value="WA">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-zip-code">Zip Code</label>
+                              <input id="joint-applicant-current-residence-zip-code" name="joint_current_residence_zip_code" type="text" class="form-control" value="95758">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-county">County</label>
+                              <input id="joint-applicant-current-residence-county" name="joint_current_residence_county" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-status">Status</label>
+                              <input id="joint-applicant-current-residence-status" name="joint_current_residence_status" type="text" class="form-control" value="RELATIVES">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-payment">Payment</label>
+                              <input id="joint-applicant-current-residence-payment" name="joint_current_residence_payment" type="text" class="form-control" value="$1,596.00">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-owner-company">Landlord/Mortgage company</label>
+                              <input id="joint-applicant-current-residence-owner-company" name="joint_current_residence_owner_company" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-owner-phone">Landlord/Mortgage phone</label>
+                              <input id="joint-applicant-current-residence-owner-phone" name="joint_current_residence_owner_phone" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-length-years">Length in years</label>
+                              <input id="joint-applicant-current-residence-length-years" name="joint_current_residence_length_years" type="text" class="form-control" value="3">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-residence-length-months">Length in months</label>
+                              <input id="joint-applicant-current-residence-length-months" name="joint_current_residence_length_months" type="text" class="form-control" value="9">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-3">
+                      <div class="card-header">Current Employment</div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-status">Status</label>
+                              <input id="joint-applicant-current-employment-status" name="joint_current_employment_status" type="text" class="form-control" value="OTHER">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-occupation">Occupation</label>
+                              <input id="joint-applicant-current-employment-occupation" name="joint_current_employment_occupation" type="text" class="form-control" value="Curator">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-employer-name">Employer name</label>
+                              <input id="joint-applicant-current-employment-employer-name" name="joint_current_employment_employer_name" type="text" class="form-control" value="Kuhn and Sons">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-address-line-1">Address line 1</label>
+                              <input id="joint-applicant-current-employment-address-line-1" name="joint_current_employment_address_line_1" type="text" class="form-control" value="73547 Jasen Parkways">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-address-line-2">Address line 2</label>
+                              <input id="joint-applicant-current-employment-address-line-2" name="joint_current_employment_address_line_2" type="text" class="form-control" value="Apt. 279">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-city">City</label>
+                              <input id="joint-applicant-current-employment-city" name="joint_current_employment_city" type="text" class="form-control" value="New Hollis">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-state">State</label>
+                              <input id="joint-applicant-current-employment-state" name="joint_current_employment_state" type="text" class="form-control" value="AR">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-zip-code">Zip code</label>
+                              <input id="joint-applicant-current-employment-zip-code" name="joint_current_employment_zip_code" type="text" class="form-control" value="33954-0324">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-salary-amount">Salary</label>
+                              <input id="joint-applicant-current-employment-salary-amount" name="joint_current_employment_salary_amount" type="text" class="form-control" value="$11,196.00">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-salary-frequency">Frequency</label>
+                              <input id="joint-applicant-current-employment-salary-frequency" name="joint_current_employment_salary_frequency" type="text" class="form-control" value="MONTHLY">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-work-phone">Work phone</label>
+                              <input id="joint-applicant-current-employment-work-phone" name="joint_current_employment_work_phone" type="text" class="form-control" value="414-504-8036">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-work-phone-extension">Work extension</label>
+                              <input id="joint-applicant-current-employment-work-phone-extension" name="joint_current_employment_work_phone_extension" type="text" class="form-control" value="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-length-years">Length in years</label>
+                              <input id="joint-applicant-current-employment-length-years" name="joint_current_employment_length_years" type="text" class="form-control" value="3">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-current-employment-length-months">Length in months</label>
+                              <input id="joint-applicant-current-employment-length-months" name="joint_current_employment_length_months" type="text" class="form-control" value="9">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-3">
+                      <div class="card-header">Other Income</div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-income-amount">Gross income amount</label>
+                              <input id="joint-applicant-income-amount" name="joint_income_amount" type="text" class="form-control" value="$1,709.00">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-income-frequency">Frequency</label>
+                              <input id="joint-applicant-income-frequency" name="joint_income_frequency" type="text" class="form-control" value="MONTHLY">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="joint-applicant-income-source">Source</label>
+                              <input id="joint-applicant-income-source" name="joint_income_source" type="text" class="form-control" value="DISABILITY">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
